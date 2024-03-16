@@ -77,22 +77,8 @@ a1u='\x1b[38;5;161m'#وردي جميل جدا
 #----------------------------------------------------
 os.system('git pull')
 os.system('clear')
-t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
-
-
-hours = (now.hour)
-x = datetime.datetime.now()
-g= datetime.datetime(2022, 12, 26, 0, 0 )
-
-
-if (x.strftime("%x"))>(g.strftime("%x")):
- print('\033[1;32m تم ايقاف الاداه راسل المطور لتفعيل ')
- time.sleep(1)
- print('\033[1;32m  ⚜️ 𝐾𝐴𝐵𝑂𝑆 ⚜️')
-print('[\033[1;32m✓\033[1;37m] Update Done \033[1;32m✓\033[1;37m Now You Can Use This Tool :) ')
-
 os.system('clear')
-
+exit('تم توقيف الاداه راسل المطور كابوس')
 time1 = time.localtime()
 
 time2 = time.strftime('''%d/%m/%Y''')
