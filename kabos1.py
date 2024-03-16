@@ -78,8 +78,6 @@ a1u='\x1b[38;5;161m'#وردي جميل جدا
 os.system('git pull')
 os.system('clear')
 os.system('clear')
-exit('تم توقيف الاداه راسل المطور كابوس')
-time1 = time.localtime()
 
 time2 = time.strftime('''%d/%m/%Y''')
 
